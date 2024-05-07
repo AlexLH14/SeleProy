@@ -31,7 +31,3 @@ class ImageScraper:
             except Exception as e:
                 print(f"Error al descargar la imagen {idx + 1}: {str(e)}")
         driver.quit()
-
-if __name__ == "__main__":
-    scraper = ImageScraper(r'C:\Users\alex2\Pictures\automatizacion')
-    scraper.scrape_images("https://www.mediotiempo.com/futbol/liga-mx")
