@@ -23,6 +23,3 @@ class WeatherInfo:
     def __del__(self):
         self.driver.quit()
 
-if __name__ == "__main__":
-    weather = WeatherInfo()
-    weather.get_weather_info()
